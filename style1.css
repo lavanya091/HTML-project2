@@ -1,0 +1,454 @@
+@media screen and (min-width: 1024px) {
+    .container {
+        position: absolute;
+        background-image: url('./pizzeria.jpg');
+        background-size: cover;
+        background-position: center; 
+        width:100%;
+        height: 950px;
+        background-color: white;
+            border-bottom-left-radius: 20%;
+            border-bottom-right-radius:20%;
+        
+        }
+        .container::before{
+        position: absolute;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        }
+    .Nm{
+        position: relative;
+        left:470px;
+        top:580px;
+        border-radius: 100%;
+        width:30%;
+        transition: all 2s;
+        z-index:1;
+    }
+    .Nm:hover{
+        transform: rotate(360deg);
+    }
+    .fam{
+        display: none;
+    }
+    .pizzahead{
+        position: absolute;
+        margin-top: 20px;
+        color: white;
+        margin:30px;
+    }
+    .pizzahead>.icons>i{
+        position: relative;
+        margin:10px;
+    }
+    .icons>button[class="btn btn-default"]{
+        background: transparent;
+        color: white;
+    }
+    .icons>button[class="btn btn-default"]:hover{
+        background-color: white;
+        color: black;
+    }
+    .l1{
+        position: relative; 
+        left:500px;
+    }
+    #ul{
+        position: absolute;
+        color: white;
+        font-size: 1em;
+        display: flex; 
+    }
+    #ul>li{
+    position: relative;
+    left:440px;
+    top:80px; 
+    list-style: none;
+    margin:20px;
+    }
+    .U6{
+        position: relative;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content:center;
+        top:45vh;
+    }
+    .U6>.head{
+        font-size: 7em;
+    }
+    button{
+    position:absolute;
+    left:1200px;
+    top:5px;
+    }   
+    .U7{
+        position:absolute;
+        top:-33px;
+        left:15%;
+    }
+    #btn1{
+    color: white;
+    z-index:1;
+    background: transparent;
+    left: 550px; 
+    top:600px; width:150px;
+    
+    }
+    #btn1:hover{
+        background-color: white;
+        color: black;
+    }
+    #btn2{
+    left: 350px; 
+    background-color: red;
+     top:600px;
+     width:150px;
+    }
+    ul li a{
+        color: white;
+        cursor: pointer;
+    }
+    ul li a:hover{
+    color: white;
+    text-decoration: none;
+    }
+
+
+.W1 h1:first-child{
+    color: red;
+    
+}
+.W1{
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    /* top:300px; */
+   
+}
+.W1>img[alt="no-image"]{
+position:relative;
+left:60px;
+border-radius: 100%;
+top:300px;
+}
+
+
+.W1>img:first-child{
+    position: relative;
+    top:170px;
+    right:30px;
+} 
+.W1>img:last-of-type{
+    position: relative;
+    top:170px;
+}
+.R2{
+    position: relative;
+    /* top:700px;   */
+}
+.W1 h1:first-child{
+    text-align: center;
+}
+.W1 .q1 h1,
+.W1 .q1 h4,
+.W1 .q3 h1,
+.W1 .q3 h4 {
+    /* margin-top: -80px;
+    margin-bottom: 10px; */
+    position: relative;
+    top:400px;
+    left:-180px;
+     /* Add some bottom margin for spacing if needed */
+}
+.W1 .q2 h1,
+.W1 .q2 h4{
+    position: relative;
+top:530px;
+   left:-180px; 
+}
+.W1 .q1 h1,
+.W1 .q2 h1,
+.W1 .q3 h1{
+font-family: 'Oswald',sans-serif;
+margin-left:-15px;
+}
+.W1 .q1 h4,
+.W1 .q2 h4,
+.W1 .q3 h4{
+    border: 0;
+    font-size: 100%;
+    font-style:inherit;
+    font-weight: bold;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline
+} 
+
+.count {
+    position: relative;
+    height: 900px;
+    top:600px;
+
+}
+
+.count .background-image {
+    width: 100%; 
+    height:70%;
+}
+
+.count::before{
+    content: "sdgsg";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70%; 
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.count .box .H1,
+.count .box .H2,
+.count .box .H3{
+position: relative;
+left:90px;
+}
+.count .box {
+    position: absolute;
+    top: 100px;
+    color: white;
+    display: flex;
+    margin:50px;
+    margin-left:50px;
+}
+
+.count .box .H1 img,
+.count .box .H2 img,
+.count .box .H3 img {
+    position: relative;
+    width: 150px;
+    height: 120px;
+    margin-left: 60px; /* Adjust this value to control the horizontal gap */
+    margin-right: 70px; /* Add this line to create a vertical gap between icons */
+}
+
+.count .box h1,
+.count .box h4 {
+    position: relative;
+    z-index: 1;
+    margin:40px;
+    /* top:-80px; */
+    /* left:20px; */
+} 
+ .count .box h1{
+
+    top:-50px;
+    font:35px Oswald,sans-serif;
+    line-height:  1.5em;
+} 
+.count .box h4{
+    top:-80px;
+    left:30px;
+    font:14px Montserrat,sans-serif;
+}
+.count .box .dis{
+    width:300px;
+    height:150px;
+    position: relative;
+    left:30px;
+}
+.count .box .dis h1 {
+    font-size: 4em;
+    top: -70px;
+    width:100%;
+}
+
+.count .box .dis h5 {
+    position: relative;
+    top: -70px;
+    left:30px;
+}
+.SL{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top:450px;
+    justify-content: center;
+    align-items: center;
+   }
+   .SL p{
+    font:15px Oswald,sans-serif;
+    letter-spacing:2px;
+    color: #e4032f;
+   }
+   .SL h1{
+    line-height: 1.3em;
+    font:48px Oswald,sans-serif;
+   }
+   .SL h5{
+    font:16px "Source Sans Pro",sans-serif;
+    color: #4A4A4A;
+   }
+   #btn3{
+    position: absolute;
+    top:190px;
+    left:680px;
+  }
+    .Nmm{
+        position: relative;
+        display: flex;
+        top:600px;
+        transition:all 4s;
+        
+/* left: 25%; */
+    }
+    .Nmm .nm {
+        position: relative;
+        width: 300px;
+        height: 260px;
+        left: 220px;
+    /* display: inline-block; */
+    }
+         .Nm1 .Nm2 .Nm3{
+            top:-90px;
+
+          } 
+          .Nm1:hover{
+            top:-50px;
+          }
+          .Nm2:hover{
+            top:-50px;
+          }
+          .Nm3:hover{
+            top:-50px;
+          }
+          .Nmm>p{
+position: relative;
+        top:280px;
+        left:25px;
+        font:24px Oswald,sans-serif;
+        color:#e4032f;
+          }
+.DD{
+    position: relative;
+    top:360px;
+    background-color: #f7f6f2;
+    height:250%;
+    border-bottom-left-radius: 500px 500px;
+    border-bottom-right-radius: 500px 500px;
+}
+.ab{
+    display: flex;
+    flex-direction:row;
+    width:500px;
+    margin-left: 60px ;
+    justify-content: center;
+    align-content: center;
+}
+.ab #k8{
+    position: relative;
+    color: red;
+    background: transparent;
+left:750px;
+    top:550px; 
+    width:150px;
+    height:40px;
+       letter-spacing: 2px;
+}
+#k8:hover{
+
+        background-color: red;
+        color: white;
+        
+    }
+
+.ab h1{
+    position:relative;
+    font:64px Oswald,sans-serif;
+    top: 500px;
+left: 120px;
+}
+        .ac .a1{
+            position: relative;
+            top:510px;
+            width:80%;
+            left:150px;
+            /* margin-left:150px; */
+        }
+        .aa1{
+            position: relative;
+            display: flex;
+            top:500px;
+            width:100%;
+            justify-content: center;
+            align-content: center;
+        }
+    .aa1 .a2{
+        position:relative;
+        width:40%;
+        left:0px;
+    }
+    
+    .aa1 .a3{
+        position: relative;
+        width:40%;
+        left:0px;
+    }
+    .p10{
+        position: relative;
+display: flex;
+top:3800px;
+justify-content: center;
+align-content: center;
+    }
+    .p10 .q9{
+  
+    text-align: center;
+    }
+    .q9 h4{
+        margin-top: 800px;
+    font:15px Oswald,sans-serif;
+    letter-spacing:2px;
+    color: #e4032f;
+    }
+    .addr{
+        display: flex;
+        flex-direction: row wrap;
+    justify-content: space-evenly;
+    height:auto;
+    width:100%;
+    position: relative;
+    top:3800px;
+    
+    }
+    .i1,.i2,.i3,.i4{
+        position: relative;
+        height:70px;
+        width:200px;
+        /* border: 1px solid black; */
+        left:-50px;
+    
+    }
+    .i1 h1,
+    .i2 h1,
+    .i3 h1,
+    .i4 h1{
+        font:40px Oswald,sans-serif;
+text-align: center;
+    }
+    .i1 h4,
+    .i2 h4,
+    .i3 h4,
+    .i4 h4{
+        font:17px"Source Sans Pro",sans-serif;
+        margin-left: 20px;
+        width:250px;
+    }
+}
